@@ -1,7 +1,7 @@
-import { NextApiRequest } from 'next';
+import { NextApiRequest } from "next";
 
 export const getIp = (req: NextApiRequest) => {
-  const ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
+  const ip = req.headers["x-real-ip"] || req.connection.remoteAddress;
 
   if (!ip) {
     return null;

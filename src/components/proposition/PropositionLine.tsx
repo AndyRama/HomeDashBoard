@@ -1,4 +1,4 @@
-import { UpVote } from './UpVote';
+import { UpVote } from "./UpVote";
 
 type PropositionLineProps = {
   title: string;

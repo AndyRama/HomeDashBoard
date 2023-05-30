@@ -1,6 +1,6 @@
-import { ComponentPropsWithoutRef } from 'react';
+import { ComponentPropsWithoutRef } from "react";
 
-type InputProps = ComponentPropsWithoutRef<'input'> & {
+type InputProps = ComponentPropsWithoutRef<"input"> & {
   label: string;
 };
 
