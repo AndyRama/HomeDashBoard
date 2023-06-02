@@ -9,17 +9,16 @@ Training Développement first application use NextJs React et TS
 **Initiation au developpement avec NextJs**
 
 > PROBLEMATIQUE
-
-A travers d'une petite application : To Do List permetant de voter un porject ou une sugestion.
+Créer une application "To Do List" permetant de voter un projet ou une sugestion d'idéé par une communauté.
 
 > BESOIN
 Apréhender le concept d'utilisation de ce framework concernant la structure de dossier, routage, serverless component,...
-Création totale du site avec une stack complète avec Next Js.
+Création totale du site simple avec une stack complète avec Next Js | Prisma | Tailwind UI | Next-Auth.
 
 ## Livrables
 
 > React App
-- code React du projet
+> code React du projet
 
 ## Ressources fournies
 
@@ -40,13 +39,15 @@ Création totale du site avec une stack complète avec Next Js.
 * [Next.js](https://nextjs.org/) 
 * [routage](https://nextjs.org/blog/next-13-4)(version 13.4)
 * [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+* [Prisma](https://nextjs.org/) 
+* [Tailwind UI](https://tailwindui.com/)
 
 ### Etape: Lancement en local
 
 - Cloner le repo du projet : `gh repo clone AndyRama/HomeDashBoard`
 - Aller dans ce dossier : `cd HomeDashBoard `
 - Installer ses dépendances : `npm install`
-- Le lancer sur le port 3001 : 
+- Le lancer sur le port 3000 : 
 
   ```bash
   npm run dev
