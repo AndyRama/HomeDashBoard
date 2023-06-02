@@ -13,7 +13,9 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <p>Composant Navbar</p> {children} <p>Composant Footer</p>
+        <p>Composant Navbar</p>
+        {children}
+        <p>Composant Footer</p>
       </body>
     </html>
   );
