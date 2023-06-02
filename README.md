@@ -1,6 +1,5 @@
 # HomeDashBoard 🇫🇷
 
-<!-- https://andy-rb.com/ -->
 
 ------------------------------------------------
 
@@ -23,7 +22,6 @@ Création totale du site simple avec une stack complète avec Next Js | Prisma |
 ## Ressources fournies
 
 à définir
-<!-- - [maquette UI](https://airbnb.com) -->
 
 ### Editeur recommandé
 
@@ -38,7 +36,7 @@ Création totale du site simple avec une stack complète avec Next Js | Prisma |
 ### Dépendances
 * [Next.js](https://nextjs.org/) 
 * [routage](https://nextjs.org/blog/next-13-4)
-* [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+* [create-next-app](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 * [Prisma](https://nextjs.org/) 
 * [Tailwind UI](https://tailwindui.com/)
 
