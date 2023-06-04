@@ -15,7 +15,7 @@ export default function RootLayout({
       <head />
       <body className='bg-gray-900 text-gray-50'>
         <header />
-        <div className='bg-red-700 p-4'>{children}</div>
+        <div className='bg-gray-700 p-4'>{children}</div>
         <p className='bg-blue-700 p-2'>Composant Footer</p>
       </body>
     </html>
