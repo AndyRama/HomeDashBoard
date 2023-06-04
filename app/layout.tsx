@@ -1,4 +1,5 @@
-import './globals.css';
+import { Header } from '~/src/components/proposition/Header';
+import './globals.scss';
 
 export default function RootLayout({
   children,
@@ -12,10 +13,10 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
-        <p>Composant Navbar</p>
-        {children}
-        <p>Composant Footer</p>
+      <body className='bg-gray-900 text-gray-50'>
+        <header />
+        <div className='bg-red-700 p-4'>{children}</div>
+        <p className='bg-blue-700 p-2'>Composant Footer</p>
       </body>
     </html>
   );
