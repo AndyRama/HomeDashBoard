@@ -1,5 +1,6 @@
 import { Board } from "@prisma/client";
 import { NextApiRequest, NextApiResponse } from "next";
+import {prisma} from '~/src/db/prisma';
 
 import { z } from "zod";
 
@@ -27,5 +28,6 @@ export default async function handler(
       title: body.title,
     }
   });
-  res.status(200).json({ board });
+
+  res.status(201).json({ board });
 }
