@@ -10,11 +10,21 @@ export const BoardForm = () => {
 
     const formData = new FormData(event.currentTarget);
     const title = String(formData.get('title'));
-    console.log(title);
-  };
+
+    fetch('/api/boards', {
+      method: 'POST',
+      body: JSON.stringify({ title,})
+    })
+
+  .then((res) => res.json())
+  .then((data) => {
+    console.log(data);
+  });
+
 
   return (
     <form onSubmit={handleSubmit} className=' flex flex-col gap-4'>
+      <h1 className='text-2xl'>Create a new board</h1>
       <Input label='Title' name='title' />
       <Button type='submit'>Create board</Button>
     </form>
