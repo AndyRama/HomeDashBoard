@@ -1,6 +1,6 @@
 'use client';
 
-import React, { FormEvent } from 'react';
+import { FormEvent } from 'react';
 import { Button } from '~/src/components/form/Bouton';
 import { Input } from '~/src/components/form/Input';
 
@@ -13,14 +13,13 @@ export const BoardForm = () => {
 
     fetch('/api/boards', {
       method: 'POST',
-      body: JSON.stringify({ title,})
+      body: JSON.stringify({ title }),
     })
-
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
-  });
-
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+      });
+  };
 
   return (
     <form onSubmit={handleSubmit} className=' flex flex-col gap-4'>
