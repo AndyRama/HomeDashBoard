@@ -1,7 +1,7 @@
 import { prisma } from '~/src/db/prisma';
 import { BoardCard } from '~/src/components/board/BoardCard';
 import { Button } from '~/src/components/form/Bouton';
-import { BoardForm } from './boards/[boardId]/new/BoardForm';
+import { BoardForm } from '~/app/boards/[boardId]/new/BoardForm';
 
 export default async function Home() {
   const boards = await prisma.board.findMany();
